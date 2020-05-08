@@ -19,9 +19,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 /**
- * DAOWorkPlan class.
- * @autor Alexander Rai
- * @version 1.0
+ * DAO class.
+ * @author Artsiom Maroz
  */
 public class DAOWorkPlan extends DAO {
     private final String GET_ALL_PLANS = "SELECT * FROM WORK_PLAN";

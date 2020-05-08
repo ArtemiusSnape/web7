@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-public class SetWorkerToJobCommand implements Command {
+public class SetWorkerToJobCommand implements controller.command.Command {
     final String urlPattern = "setWorkerToJob";
     final int accessLevel = 1;
 

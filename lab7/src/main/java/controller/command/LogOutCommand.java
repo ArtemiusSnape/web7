@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-public class LogOutCommand implements Command {
+public class LogOutCommand implements controller.command.Command {
     final String urlPattern = "logout";
     final int accessLevel = -1;
 

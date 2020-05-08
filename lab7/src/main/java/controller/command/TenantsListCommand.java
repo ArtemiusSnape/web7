@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-public class TenantsListCommand implements Command {
+public class TenantsListCommand implements controller.command.Command {
 
     final String urlPattern = "tenantsList";
     final int accessLevel = 0;

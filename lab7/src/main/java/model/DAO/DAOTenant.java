@@ -17,9 +17,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 /**
- * DAOTenant class.
- * @autor Alexander Rai
- * @version 1.0
+ * DAO class.
+ * @author Artsiom Maroz
  */
 public class DAOTenant extends DAO {
 

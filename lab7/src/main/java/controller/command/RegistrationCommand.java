@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-public class RegistrationCommand implements Command {
+public class RegistrationCommand implements controller.command.Command {
     final String urlPattern = "registration";
     final int accessLevel = -1;
 

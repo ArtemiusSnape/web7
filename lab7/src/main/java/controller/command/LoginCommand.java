@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-public class LoginCommand implements Command {
+public class LoginCommand implements controller.command.Command {
     final String urlPattern = "login";
     final int accessLevel = -1;
 

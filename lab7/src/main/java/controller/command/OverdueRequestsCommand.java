@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-public class OverdueRequestsCommand implements Command {
+public class OverdueRequestsCommand implements controller.command.Command {
     final String urlPattern = "overdueRequests";
     final int accessLevel = 1;
 

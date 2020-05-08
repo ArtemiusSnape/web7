@@ -20,11 +20,10 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 /**
- * DAORequest class.
- * @autor Alexander Rai
- * @version 1.0
+ * DAO class.
+ * @author Artsiom Maroz
  */
-public class DAORequest extends DAO {
+public class DAORequest extends model.DAO.DAO {
 
     public DAORequest() throws DAOException {
         super();

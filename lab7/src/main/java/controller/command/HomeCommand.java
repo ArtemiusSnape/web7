@@ -10,23 +10,27 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-public class HomeCommand implements Command {
+public class HomeCommand implements controller.command.Command
+{
 
     final String urlPattern = "home";
     final int accessLevel = -1;
 
     @Override
-    public int getAccessLevel() {
+    public int getAccessLevel()
+    {
         return accessLevel;
     }
     @Override
-    public String getPattern() {
+    public String getPattern()
+    {
         return urlPattern;
     }
 
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response, ServletContext servletContext)
-            throws ServletException, IOException {
+            throws ServletException, IOException
+    {
 
         RequestDispatcher dispatcher = servletContext.getRequestDispatcher("/view/homeView.jsp");
         dispatcher.forward(request, response);

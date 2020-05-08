@@ -3,9 +3,8 @@ package model.entities;
 import javax.persistence.*;
 
 /**
- * Class that represents worker.
- * @autor Alexander Rai
- * @version 1.0
+ * DAO class.
+ * @author Artsiom Maroz
  */
 @Entity(name = "Worker")
 @Table(name = Worker.tableName)

@@ -3,11 +3,9 @@ package model.entities;
 import javax.persistence.*;
 
 /**
- * Class that represents system user.
- * @autor Alexander Rai
- * @version 1.0
+ * DAO class.
+ * @author Artsiom Maroz
  */
-
 @Entity(name = "User")
 @Table(name = User.tableName)
 public class User {

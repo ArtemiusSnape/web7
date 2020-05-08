@@ -1,6 +1,7 @@
 package controller;
 
 import controller.command.*;
+import controller.command.CancelRequestCommand;
 import model.entities.User;
 
 import javax.servlet.ServletException;
@@ -13,7 +14,10 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-
+/**
+ * DAO class.
+ * @author Artsiom Maroz
+ */
 @WebServlet(name = "MainServlet", urlPatterns = {"/"})
 public class MainServlet extends HttpServlet {
 

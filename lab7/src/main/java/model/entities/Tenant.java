@@ -3,9 +3,8 @@ package model.entities;
 import javax.persistence.*;
 
 /**
- * Class that represents tenant.
- * @autor Alexander Rai
- * @version 1.0
+ * DAO class.
+ * @author Artsiom Maroz
  */
 
 @Entity(name = "Tenant")

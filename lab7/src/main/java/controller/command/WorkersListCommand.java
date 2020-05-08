@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-public class WorkersListCommand implements Command {
+public class WorkersListCommand implements controller.command.Command {
 
     final String urlPattern = "workersList";
     final int accessLevel = -1;
