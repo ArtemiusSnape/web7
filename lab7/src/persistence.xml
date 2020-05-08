@@ -13,9 +13,9 @@
         <class>model.entities.WorkPlan</class>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/> <!-- DB Driver -->
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://bsqvv5puo6b292d5:qmcvhruz3xb907ob@sabaik6fx8he7pua.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/vvjcptf2znqn013z"/> <!-- BD Mane -->
-            <property name="javax.persistence.jdbc.username" value="bsqvv5puo6b292d5"/> <!-- DB User -->
-            <property name="javax.persistence.jdbc.password" value="qmcvhruz3xb907ob"/> <!-- DB Password -->
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://xwurdyxoe0r65gjj:gwsog5n8e0k5u3pg@q2gen47hi68k1yrb.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/vds0w0mvf8201x1x"/> <!-- BD Mane -->
+            <property name="javax.persistence.jdbc.username" value="xwurdyxoe0r65gjj"/> <!-- DB User -->
+            <property name="javax.persistence.jdbc.password" value="gwsog5n8e0k5u3pg"/> <!-- DB Password -->
             <property name="hibernate.hbm2ddl.auto" value="update"/> <!-- create / create-drop / update -->
             <property name="hibernate.show_sql" value="false"/>
             <property name="hibernate.format_sql" value="false"/>
